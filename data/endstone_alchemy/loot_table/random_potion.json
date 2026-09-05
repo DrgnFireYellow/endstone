@@ -107,6 +107,26 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_name": "invisibility",
+                                    "custom_effects": [
+                                        {
+                                            "id": "invisibility",
+                                            "duration": 200
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         }
