@@ -1,0 +1,1 @@
+execute if entity @a[tag=endstone_alchemy_player] run function endstone_alchemy:game_loop

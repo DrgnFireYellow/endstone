@@ -1,0 +1,114 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_name": "poison",
+                                    "custom_effects": [
+                                        {
+                                            "id": "poison",
+                                            "duration": 200
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_name": "swiftness",
+                                    "custom_effects": [
+                                        {
+                                            "id": "speed",
+                                            "duration": 200
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_name": "strength",
+                                    "custom_effects": [
+                                        {
+                                            "id": "strength",
+                                            "duration": 200
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_name": "leaping",
+                                    "custom_effects": [
+                                        {
+                                            "id": "jump_boost",
+                                            "amplifier": 2,
+                                            "duration": 200
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": "harming"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": "healing"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

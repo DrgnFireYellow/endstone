@@ -1,0 +1,15 @@
+{
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "layers": [
+                {
+                    "block": "glass",
+                    "height": 1
+                }
+            ],
+            "structure_overrides": []
+        }
+    },
+    "type": "minecraft:overworld"
+}
