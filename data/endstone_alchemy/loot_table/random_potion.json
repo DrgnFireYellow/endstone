@@ -35,7 +35,8 @@
                                     "custom_effects": [
                                         {
                                             "id": "speed",
-                                            "duration": 200
+                                            "duration": 200,
+                                            "amplifier": 2
                                         }
                                     ]
                                 }
@@ -120,7 +121,7 @@
                                     "custom_effects": [
                                         {
                                             "id": "invisibility",
-                                            "duration": 200
+                                            "duration": 150
                                         }
                                     ]
                                 }
