@@ -1,0 +1,1 @@
+execute as @a[tag=endstone_alchemy_player] at @s run playsound block.note_block.pling master @s ~ ~ ~ 100
