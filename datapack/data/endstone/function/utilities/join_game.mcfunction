@@ -1,8 +1,12 @@
 $execute if entity @a[tag=endstone.active.$(game)] run tellraw @s {text:"A game is currently running, please wait until it ends.", color:red}
 $execute if entity @a[tag=endstone.active.$(game)] run return fail
 
+execute if entity @s[tag=endstone.playing] run tellraw @s {text: "You're already in a game!"}
+execute if entity @s[tag=endstone.playing] run return fail
+
 $scoreboard objectives add endstone.data.$(game) dummy
 $tag @s add endstone.playing.$(game)
+tag @s add endstone.playing
 clear @s
 effect clear @s
 effect give @s instant_health 1 100
