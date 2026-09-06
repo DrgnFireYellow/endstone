@@ -1,3 +1,6 @@
+$execute unless entity @s[tag=endstone.playing.$(game)] run tellraw @s {text: "You aren't in a game!", color: red}
+$execute unless entity @s[tag=endstone.playing.$(game)] run return 0
+
 $tag @s remove endstone.playing.$(game)
 $tag @s remove endstone.active.$(game)
 clear @s
