@@ -148,6 +148,26 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_name": "weakness",
+                                    "custom_effects": [
+                                        {
+                                            "id": "weakness",
+                                            "duration": 200
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         }
