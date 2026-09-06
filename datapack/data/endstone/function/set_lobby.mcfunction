@@ -1,2 +1,2 @@
-kill @e[type=marker,tag=endstone_lobby]
-summon marker ~ ~ ~ {Tags:["endstone_lobby"]}
+kill @e[type=marker,tag=endstone.lobby]
+summon marker ~ ~ ~ {Tags:["endstone.lobby"]}

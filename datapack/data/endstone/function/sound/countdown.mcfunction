@@ -1,0 +1,1 @@
+playsound block.note_block.pling master @s ~ ~ ~ 100
