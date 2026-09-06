@@ -3,6 +3,7 @@ $execute unless entity @s[tag=endstone.playing.$(game)] run return 0
 
 $tag @s remove endstone.playing.$(game)
 $tag @s remove endstone.active.$(game)
+team leave @s
 clear @s
 effect clear @s
 scoreboard players reset @s endstone.death

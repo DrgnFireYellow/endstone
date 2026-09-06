@@ -1,0 +1,1 @@
+function endstone:utilities/leave_game {game: ctb}
