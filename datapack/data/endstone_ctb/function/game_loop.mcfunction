@@ -8,3 +8,5 @@ function endstone:utilities/match_management {game: ctb, min_players: 2, start_f
 function endstone:win_conditions/team {game: ctb, team_1: yellow, team_2: purple}
 
 execute if entity @a[tag=endstone.active.ctb] run function endstone_ctb:scoring
+
+stopsound @a[tag=endstone.playing.ctb] music

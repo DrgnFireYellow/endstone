@@ -11,3 +11,6 @@ function endstone_ctb:place_yellow_banner
 
 tp @a[team=endstone.ctb.purple] @n[type=marker,tag=endstone.spawnpoint.ctb.purple]
 tp @a[team=endstone.ctb.yellow] @n[type=marker,tag=endstone.spawnpoint.ctb.yellow]
+
+effect give @a[tag=endstone.active.ctb] instant_health 1 100
+effect give @a[tag=endstone.active.ctb] saturation 1 100
