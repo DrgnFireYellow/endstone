@@ -8,5 +8,6 @@ team leave @s
 clear @s
 effect clear @s
 scoreboard players reset @s endstone.death
+execute at @n[type=marker,tag=endstone.lobby] run spawnpoint @s ~ ~ ~
 tp @s @n[type=marker,tag=endstone.lobby]
 stopsound @s record

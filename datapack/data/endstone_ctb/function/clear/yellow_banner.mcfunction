@@ -1,0 +1,1 @@
+clear @a[tag=endstone.active.ctb] yellow_banner
