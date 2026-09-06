@@ -1,0 +1,10 @@
+{
+    "music.failing_defense": {
+        "sounds": [
+            {
+                "name": "endstone:music/failing_defense",
+                "stream": true
+            }
+        ]
+    }
+}

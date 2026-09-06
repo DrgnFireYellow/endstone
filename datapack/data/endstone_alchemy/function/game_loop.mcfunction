@@ -5,6 +5,9 @@ execute as @a[scores={endstone_alchemy_potion_time=100}] run scoreboard players 
 # Update the random potion timer
 scoreboard players add @a[tag=endstone_alchemy_active] endstone_alchemy_potion_time 1
 
+# Prevent vanilla background music from playing during match
+stopsound @a[tag=endstone_alchemy_player] music
+
 # Remove players from game when they die
 execute as @a[tag=endstone_alchemy_player,scores={endstone_death=1}] run function endstone_alchemy:leave_game
 
