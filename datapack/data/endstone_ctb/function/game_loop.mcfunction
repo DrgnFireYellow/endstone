@@ -5,7 +5,7 @@ scoreboard players set $just_scored endstone.data.ctb 0
 
 function endstone:utilities/player_counter {game: ctb}
 function endstone:utilities/match_management {game: ctb, min_players: 2, start_function: "endstone_ctb:start_game"}
-function endstone:win_conditions/team {game: ctb, team_1: yellow, team_2: purple}
+function endstone:win_conditions/team {game: ctb, team_1: yellow, team_2: purple, end_function: "endstone_ctb:end_game"}
 
 execute if entity @a[tag=endstone.active.ctb] run function endstone_ctb:scoring
 

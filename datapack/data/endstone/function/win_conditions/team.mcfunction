@@ -1,2 +1,2 @@
-$execute unless entity @a[team=endstone.$(game).$(team_2),tag=endstone.active.$(game)] as @a[tag=endstone.active.$(game)] run function endstone:utilities/end_game {game: $(game)}
-$execute unless entity @a[team=endstone.$(game).$(team_1),tag=endstone.active.$(game)] as @a[tag=endstone.active.$(game)] run function endstone:utilities/end_game {game: $(game)}
+$execute unless entity @a[team=endstone.$(game).$(team_2),tag=endstone.active.$(game)] as @a[tag=endstone.active.$(game)] run function $(end_function)
+$execute unless entity @a[team=endstone.$(game).$(team_1),tag=endstone.active.$(game)] as @a[tag=endstone.active.$(game)] run function $(end_function)

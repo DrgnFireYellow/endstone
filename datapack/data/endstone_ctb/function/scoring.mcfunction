@@ -14,3 +14,7 @@ execute as @n[type=marker,tag=endstone.ctb.yellow_banner] at @s if items entity 
 # Remove teams when they lose
 execute if score yellow endstone.scoreboard.ctb matches 3 as @a[team=endstone.ctb.purple] run function endstone_ctb:leave_game
 execute if score purple endstone.scoreboard.ctb matches 3 as @a[team=endstone.ctb.yellow] run function endstone_ctb:leave_game
+
+# Make players holding banners glow
+execute as @a[team=endstone.ctb.purple,tag=endstone.active.ctb] if items entity @s container.* yellow_banner run effect give @s glowing 1 0 true
+execute as @a[team=endstone.ctb.yellow,tag=endstone.active.ctb] if items entity @s container.* magenta_banner run effect give @s glowing 1 0 true

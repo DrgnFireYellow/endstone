@@ -42,5 +42,4 @@ scoreboard players display name yellow endstone.scoreboard.ctb {text: "Yellow", 
 scoreboard objectives setdisplay sidebar.team.light_purple endstone.scoreboard.ctb
 scoreboard objectives setdisplay sidebar.team.yellow endstone.scoreboard.ctb
 
-# Start music
-execute as @a[tag=endstone.active.ctb] at @s run playsound endstone:music.five_armies record @s ~ ~ ~ 100
+function endstone_ctb:play_music
