@@ -1,0 +1,28 @@
+{
+  "parent": "endstone_ctb:powerups/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": "dash",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:rabbit_foot",
+          "components": {
+            "minecraft:custom_data": {
+              "is_dash": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
