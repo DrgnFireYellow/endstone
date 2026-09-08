@@ -10,4 +10,4 @@ stopsound @a[tag=endstone.playing.alchemy] music
 
 function endstone:utilities/player_counter {game: alchemy}
 function endstone:utilities/match_management {game: alchemy, min_players: 2, start_function: "endstone_alchemy:start_game"}
-function endstone:win_conditions/elimination {game: alchemy}
+function endstone:win_conditions/elimination {game: alchemy, end_function: "endstone_alchemy:end_game"}
