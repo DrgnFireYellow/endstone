@@ -1,0 +1,1 @@
+function endstone:utilities/end_game {game: alchemy}
