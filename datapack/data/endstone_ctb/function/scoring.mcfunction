@@ -3,8 +3,7 @@ execute as @n[type=marker,tag=endstone.ctb.purple_banner] at @s if items entity 
 execute as @n[type=marker,tag=endstone.ctb.yellow_banner] at @s if items entity @a[team=endstone.ctb.yellow,tag=endstone.active.ctb] container.* yellow_banner run function endstone_ctb:place_yellow_banner
 
 # Reset banner if someone dies
-execute as @a[tag=endstone.active.ctb,scores={endstone.death=1}] if items entity @s container.* magenta_banner run function endstone_ctb:place_purple_banner
-execute as @a[tag=endstone.active.ctb,scores={endstone.death=1}] if items entity @s container.* yellow_banner run function endstone_ctb:place_yellow_banner
+execute as @a[tag=endstone.active.ctb,scores={endstone.death=1}] run function endstone_ctb:on_death
 scoreboard players reset @a[tag=endstone.active.ctb] endstone.death
 
 # Detect when points are scored
@@ -18,3 +17,5 @@ execute if score purple endstone.scoreboard.ctb matches 3 as @a[team=endstone.ct
 # Make players holding banners glow
 execute as @a[team=endstone.ctb.purple,tag=endstone.active.ctb] if items entity @s container.* yellow_banner run effect give @s glowing 1 0 true
 execute as @a[team=endstone.ctb.yellow,tag=endstone.active.ctb] if items entity @s container.* magenta_banner run effect give @s glowing 1 0 true
+execute as @a[team=endstone.ctb.purple,tag=endstone.active.ctb] if items entity @s weapon.offhand yellow_banner run effect give @s glowing 1 0 true
+execute as @a[team=endstone.ctb.yellow,tag=endstone.active.ctb] if items entity @s weapon.offhand magenta_banner run effect give @s glowing 1 0 true

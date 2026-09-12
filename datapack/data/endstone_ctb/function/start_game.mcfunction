@@ -32,6 +32,8 @@ execute as @a[team=endstone.ctb.purple] at @n[type=marker,tag=endstone.spawnpoin
 # Teleport players to team spawns
 tp @a[team=endstone.ctb.yellow] @n[type=marker,tag=endstone.spawnpoint.ctb.yellow]
 tp @a[team=endstone.ctb.purple] @n[type=marker,tag=endstone.spawnpoint.ctb.purple]
+execute as @a[team=endstone.ctb.yellow] run rotate @s[team=endstone.ctb.yellow] facing entity @e[type=marker,tag=endstone.spawnpoint.ctb.purple,limit=1]
+execute as @a[team=endstone.ctb.purple] run rotate @s[team=endstone.ctb.purple] facing entity @e[type=marker,tag=endstone.spawnpoint.ctb.yellow,limit=1]
 
 # Configure scoreboard
 scoreboard players set purple endstone.scoreboard.ctb 0
@@ -41,5 +43,8 @@ scoreboard players display name yellow endstone.scoreboard.ctb {text: "Yellow", 
 
 scoreboard objectives setdisplay sidebar.team.light_purple endstone.scoreboard.ctb
 scoreboard objectives setdisplay sidebar.team.yellow endstone.scoreboard.ctb
+
+# Reset Respawn Timer
+scoreboard players set @a[tag=endstone.active.ctb] endstone.respawn_time.ctb -1
 
 function endstone_ctb:play_music

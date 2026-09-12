@@ -11,6 +11,8 @@ function endstone_ctb:place_yellow_banner
 
 tp @a[team=endstone.ctb.purple] @n[type=marker,tag=endstone.spawnpoint.ctb.purple]
 tp @a[team=endstone.ctb.yellow] @n[type=marker,tag=endstone.spawnpoint.ctb.yellow]
+execute as @a[team=endstone.ctb.yellow] run rotate @s[team=endstone.ctb.yellow] facing entity @e[type=marker,tag=endstone.spawnpoint.ctb.purple,limit=1]
+execute as @a[team=endstone.ctb.purple] run rotate @s[team=endstone.ctb.purple] facing entity @e[type=marker,tag=endstone.spawnpoint.ctb.yellow,limit=1]
 
 effect give @a[tag=endstone.active.ctb] instant_health 1 100
 effect give @a[tag=endstone.active.ctb] saturation 1 100
