@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 0,
+      "entries": []
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Shadow Shard",
+                  "color": "#20262b",
+                  "shadow_color": 0,
+                  "italic": false
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.01,
+                  "animation": "block",
+                  "sound": "minecraft:block.sculk_sensor.clicking",
+                  "has_consume_particles": false
+                },
+                "minecraft:custom_data": {
+                  "is_stealth": {}
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": []
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0.01,
+                  "animation": "none",
+                  "sound": "minecraft:entity.breeze.jump"
+                },
+                "minecraft:custom_data": {
+                  "is_dash": {}
+                },
+                "minecraft:custom_name": {
+                  "text": "Breeze Feather",
+                  "type": "text",
+                  "color": "#d1e4df",
+                  "shadow_color": 7368816,
+                  "italic": false
+                }
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
