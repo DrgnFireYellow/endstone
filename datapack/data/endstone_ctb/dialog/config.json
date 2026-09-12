@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "CTB",
+    "actions": [
+        {
+            "label": "Set Spawnpoint",
+            "action": {"type": "run_command", "command": "/function endstone:config/set_position {id: spawnpoint.ctb}"}
+        },
+        {
+            "label": "Set Yellow Team Spawnpoint",
+            "action": {"type": "run_command", "command": "/function endstone:config/set_position {id: spawnpoint.ctb.yellow}"}
+        },
+        {
+            "label": "Set Yellow Team Banner",
+            "action": {"type": "run_command", "command": "/function endstone:config/set_position {id: ctb.yellow_banner}"}
+        },
+        {
+            "label": "Set Purple Team Spawnpoint",
+            "action": {"type": "run_command", "command": "/function endstone:config/set_position {id: spawnpoint.ctb.purple}"}
+        },
+        {
+            "label": "Set Purple Team Banner",
+            "action": {"type": "run_command", "command": "/function endstone:config/set_position {id: ctb.purple_banner}"}
+        }
+    ],
+    "columns": 1
+}

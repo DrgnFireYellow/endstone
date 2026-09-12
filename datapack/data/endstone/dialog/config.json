@@ -1,0 +1,6 @@
+{
+    "type": "dialog_list",
+    "dialogs": "#endstone:config_dialogs",
+    "title": "Endstone Configuration",
+    "columns": 1
+}

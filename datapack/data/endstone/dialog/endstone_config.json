@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Endstone",
+    "actions": [
+        {
+            "label": "Set Lobby",
+            "action": {"type": "run_command", "command": "/function endstone:config/set_position {id: lobby}"}
+        }
+    ],
+    "columns": 1
+}

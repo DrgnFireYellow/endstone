@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Alchemy",
+    "actions": [
+        {
+            "label": "Set Spawnpoint",
+            "action": {"type": "run_command", "command": "/function endstone:config/set_position {id: spawnpoint.alchemy}"}
+        }
+    ],
+    "columns": 1
+}
