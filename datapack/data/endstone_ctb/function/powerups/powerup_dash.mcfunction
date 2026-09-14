@@ -1,3 +1,4 @@
 
 summon chicken ^ ^ ^-1 {Health:0,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,DeathTime:20,active_effects:[{id:wind_charged,duration:600,amplifier:1,show_particles:0b,show_icon:0b}],Passengers:[{id:chicken,DeathTime:20,Invulnerable:1b,NoAI:1b,NoGravity:1b,Health:0,PersistenceRequired:1b,Silent:1b,active_effects:[{id:wind_charged,duration:600,amplifier:1,show_particles:0b,show_icon:0b}]}]}
+effect give @s minecraft:slow_falling 3 1 true
 advancement revoke @s only endstone_ctb:powerups/dash_powerup

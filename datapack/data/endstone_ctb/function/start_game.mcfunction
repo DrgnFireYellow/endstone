@@ -1,8 +1,8 @@
 tag @a[tag=endstone.playing.ctb] add endstone.active.ctb
 
 # Place banners
-function endstone_ctb:place_purple_banner
-function endstone_ctb:place_yellow_banner
+function endstone_ctb:banners/place_purple_banner
+function endstone_ctb:banners/place_yellow_banner
 
 # Create teams
 team add endstone.ctb.purple Purple
@@ -40,11 +40,15 @@ scoreboard players set purple endstone.scoreboard.ctb 0
 scoreboard players display name purple endstone.scoreboard.ctb {text: "Purple", color: light_purple}
 scoreboard players set yellow endstone.scoreboard.ctb 0
 scoreboard players display name yellow endstone.scoreboard.ctb {text: "Yellow", color: yellow}
+scoreboard objectives add endstone.scoreboard.ctb.stealthdealdamage minecraft.custom:minecraft.damage_dealt
 
 scoreboard objectives setdisplay sidebar.team.light_purple endstone.scoreboard.ctb
 scoreboard objectives setdisplay sidebar.team.yellow endstone.scoreboard.ctb
+
 
 # Reset Respawn Timer
 scoreboard players set @a[tag=endstone.active.ctb] endstone.respawn_time.ctb -1
 
 function endstone_ctb:play_music
+
+function endstone_ctb:powerups/itembox/spawn_itemboxes

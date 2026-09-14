@@ -1,24 +1,19 @@
 {
   "pools": [
     {
-      "rolls": 0,
-      "entries": []
-    },
-    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:echo_shard",
+          "weight" : 2,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
                   "text": "Shadow Shard",
-                  "color": "#20262b",
-                  "shadow_color": 0,
-                  "italic": false
+                  "color": "#20262b"
                 },
                 "minecraft:consumable": {
                   "consume_seconds": 0.01,
@@ -32,17 +27,11 @@
               }
             }
           ]
-        }
-      ],
-      "functions": []
-    },
-    {
-      "rolls": 1,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:feather",
-          "weight": 2,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -55,15 +44,38 @@
                 "minecraft:custom_data": {
                   "is_dash": {}
                 },
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
                   "text": "Breeze Feather",
                   "type": "text",
-                  "color": "#d1e4df",
-                  "shadow_color": 7368816,
-                  "italic": false
+                  "color": "#9ed2ea"
                 }
-              },
-              "conditions": []
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "animation": "bow",
+                  "sound": "minecraft:entity.evoker.cast_spell",
+                  "has_consume_particles": false
+                },
+                "minecraft:custom_data": {
+                  "is_petrify": {}
+                },
+                "minecraft:item_name": {
+                  "text": "Stone's Gaze",
+                  "type": "text",
+                  "color": "#888888"
+                }
+              }
             }
           ]
         }

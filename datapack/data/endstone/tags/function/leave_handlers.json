@@ -1,0 +1,7 @@
+{
+    "values": [
+        "endstone_alchemy:leave_handler",
+        "endstone_ctb:leave_handler",
+        "endstone_spleef:leave_handler"
+    ]
+}

@@ -22,3 +22,4 @@ $execute if score $countdown_time endstone.data.$(game) matches 80 as @a[tag=end
 $execute if score $countdown_time endstone.data.$(game) matches 100 run function $(start_function)
 
 $scoreboard players add $countdown_time endstone.data.$(game) 1 
+

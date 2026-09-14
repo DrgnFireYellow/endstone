@@ -1,0 +1,1 @@
+execute if entity @s[tag=endstone.playing.spleef] run function endstone_spleef:leave_game

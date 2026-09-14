@@ -1,0 +1,1 @@
+function endstone:utilities/join_game {game: spleef}

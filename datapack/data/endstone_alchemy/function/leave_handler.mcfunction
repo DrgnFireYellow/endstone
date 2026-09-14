@@ -1,0 +1,1 @@
+execute if entity @s[tag=endstone.playing.alchemy] run function endstone_alchemy:leave_game

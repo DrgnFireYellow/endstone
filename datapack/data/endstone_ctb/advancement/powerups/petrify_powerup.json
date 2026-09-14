@@ -1,0 +1,28 @@
+{
+  "parent": "endstone_ctb:powerups/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": "petrify",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:skeleton_skull",
+          "components": {
+            "minecraft:custom_data": {
+              "is_petrify": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+execute as @e[type=block_display,tag=endstone.ctb.itembox] at @s run tp @s ~ ~ ~ ~-7 ~
+execute as @e[type=block_display,tag=endstone.ctb.itembox] at @s if entity @a[distance=0..1] run function endstone_ctb:powerups/itembox/give_item

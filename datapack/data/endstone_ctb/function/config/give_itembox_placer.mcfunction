@@ -1,0 +1,1 @@
+give @s shulker_spawn_egg[item_model=purple_stained_glass,item_name="Itembox Placer",lore=["Right click to add an itembox spawnpoint","CTB"],entity_data={id:marker,Tags:["endstone.ctb.itembox_spawnpoint"]}] 1

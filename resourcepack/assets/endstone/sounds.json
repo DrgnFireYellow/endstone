@@ -14,5 +14,13 @@
                 "stream": true
             }
         ]
+    },
+    "music.krampus_workshop": {
+        "sounds": [
+            {
+                "name": "endstone:music/krampus_workshop",
+                "stream": true
+            }
+        ]
     }
 }

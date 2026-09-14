@@ -4,7 +4,7 @@
     "icon": {
       "id": "minecraft:potion"
     },
-    "title": "petrify",
+    "title": "stealth",
     "description": "",
     "show_toast": false,
     "announce_to_chat": false,
@@ -15,10 +15,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "minecraft:clay",
+          "items": "minecraft:echo_shard",
           "components": {
             "minecraft:custom_data": {
-              "is_petrify": {}
+              "is_stealth": {}
             }
           }
         }
