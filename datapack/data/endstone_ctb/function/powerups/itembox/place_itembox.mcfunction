@@ -1,2 +1,2 @@
-summon block_display ~ ~0.5 ~ {Tags:[endstone.ctb.itembox],block_state:{Name:"purple_stained_glass"},transformation:{scale:[0.5, 0.5, 0.5],translation:[-0.25,-0.25,-0.25],left_rotation:[0,0,0,1],right_rotation:[0,0,0,1]},teleport_duration:1}
+summon block_display ~ ~0.5 ~ {Tags:[endstone.ctb.itembox],block_state:{id:"purple_stained_glass"},transformation:{scale:[0.5, 0.5, 0.5],translation:[-0.25,-0.25,-0.25],left_rotation:[0,0,0,1],right_rotation:[0,0,0,1]},teleport_duration:1}
 summon text_display ~ ~0.3 ~ {Tags:[endstone.ctb.itembox_display],text:"?",billboard:"vertical",transformation:{scale:[1.5, 1.5, 1.5],translation:[0,0,0],left_rotation:[0,0,0,1],right_rotation:[0,0,0,1]},background:false}
