@@ -7,9 +7,9 @@
           "type": "minecraft:item",
           "name": "minecraft:echo_shard",
           "weight" : 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
                   "text": "Shadow Shard",
@@ -32,9 +32,9 @@
           "type": "minecraft:item",
           "name": "minecraft:feather",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:consumable": {
                   "consume_seconds": 0.01,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:skeleton_skull",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:consumable": {
                   "consume_seconds": 1,

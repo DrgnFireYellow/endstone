@@ -2,9 +2,8 @@
   "pack": {
     "description": "A collection of minigames",
     "min_format": [
-      107,
-      1
+      121
     ],
-    "max_format": 107
+    "max_format": 121
   }
 }

@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": {
                                     "custom_name": "poison",
@@ -26,9 +26,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": {
                                     "custom_name": "swiftness",
@@ -47,9 +47,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": {
                                     "custom_name": "strength",
@@ -67,9 +67,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": {
                                     "custom_name": "leaping",
@@ -88,9 +88,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": "harming"
                             }
@@ -100,9 +100,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": "healing"
                             }
@@ -112,9 +112,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": {
                                     "custom_name": "invisibility",
@@ -132,9 +132,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": {
                                     "custom_name": "slow_falling",
@@ -152,9 +152,9 @@
                 {
                     "type": "item",
                     "name": "splash_potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "potion_contents": {
                                     "custom_name": "weakness",
